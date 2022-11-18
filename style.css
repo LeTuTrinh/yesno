@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: deeppink;
+    min-height:100vh;
+    
+}
+.wapper {
+    height: 400px;
+    width: 600px;
+    background-color: aliceblue;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.gr-button {
+    height: 30px;
+    width: 50;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+button {
+    position:absolute;
+    width: 150px;
+    height: inherit;
+    font-size: 1.2em;
+    border-radius: 28px;
+    font-weight: 600px;
+    cursor:pointer;
+    outline: none;
+}
+button:nth-child(1){
+    margin-left: -200px;    
+    background-color:  deeppink;
+}
+button:nth-child(2){
+    margin-right: -200px;
+    color: deeppink;
+}
+.yes:hover {
+    background-color: crimson;
+}
+.text{
+    color: crimson;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight:bolder;
+    text-align: center;
+}
